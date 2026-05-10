@@ -1,16 +1,75 @@
-# React + Vite
+# ✨ Dreamy University Diary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A premium, aesthetically pleasing dashboard for university students to manage their academic life and personal memories.
 
-Currently, two official plugins are available:
+![Dashboard Preview](https://raw.githubusercontent.com/lucide-react/lucide/main/icons/graduation-cap.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌸 Overview
 
-## React Compiler
+**Dreamy University Diary** is a comprehensive personal management tool designed specifically for university students. Inspired by soft pastel aesthetics and modern glassmorphism design, it provides a "dreamy" yet highly functional space to keep track of classes, goals, and daily reflections.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📅 Smart Timetable
+- **Weekly Overview**: Manage your classes from Monday to Friday (09:00 - 22:00).
+- **Detail View**: Click on any subject to see classroom numbers and professor details.
+- **Pastel Coding**: Automatically assigned soft colors for a visually organized schedule.
+
+### 📝 Strategic Study Plan
+- **Multi-Level Tracking**: Organize your goals into Yearly, Monthly, and Weekly buckets.
+- **Interactive To-Do**: Check off tasks as you complete them with smooth animations.
+- **Goal Persistence**: Never lose track of your academic milestones.
+
+### 📖 Emotional Diary
+- **Mood Tracking**: Capture your daily vibes with curated mood emojis.
+- **Freeform Writing**: A clean, focused interface for writing down your thoughts and experiences.
+- **Memories List**: Revisit your past entries in a beautiful card-based history view.
+
+---
+
+## 🎨 Design Philosophy
+
+- **Soft Aesthetic**: A color palette derived from spring gradients (Pinks, Greens, and Whites).
+- **Glassmorphism**: Translucent components with frosted glass effects for a premium, lightweight feel.
+- **Premium Typography**: Optimized for Korean and English readability using modern sans-serif fonts.
+- **Dashboard Layout**: All essential features are visible on a single screen for maximum efficiency and a "full" visual experience.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React](https://reactjs.org/) (Vite)
+- **Styling**: Vanilla CSS (Custom Glassmorphism System)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Storage**: Browser LocalStorage for zero-setup data persistence.
+
+---
+
+## 💻 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## 📄 License
+
+© 2026 Dreamy University Diary. Built with ❤️ for students.
